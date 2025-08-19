@@ -27,12 +27,16 @@ body {
   transform: scale(.98)
 }
 
+#color-input {
+  border-radius: 4px
+}
+
 #box {
   margin-top: 1em;
   width: 150px;
   height: 150px;
   background: #ddd;
-  border: 1px solid #aaa;
-
+  border: 1px solid #aaa
 }
+
 
