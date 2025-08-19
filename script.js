@@ -2,3 +2,7 @@
 const $ = s => document.querySelector(s);
 const box = $('#box');
 const input = $('#color-input');
+
+$('#apply-btn').addEventListener('click', () => {
+  box.style.backgroundColor = input.value;
+});
