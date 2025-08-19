@@ -2,13 +2,16 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Color Changer</title>
+  <title>Color Picker & Changer</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="app">
-    <h1>Color Changer</h1>
-    <input id="color-input" type="text" placeholder="Enter color (e.g. #ff0000)">
+    <h1>Color Picker & Changer</h1>
+
+    <!-- Commit 1 – switch to color picker -->
+    <input id="color-input" type="color" value="#dddddd" aria-label="Pick a color">
+
     <button id="apply-btn">Apply Color</button>
     <div id="box"></div>
   </div>
