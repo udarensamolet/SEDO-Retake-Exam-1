@@ -18,8 +18,13 @@ body {
 }
 
 #apply-btn {
-  padding: 0.5em 1em;
-  margin-left: 0.5em;
+  padding: .5em 1em;
+  margin-left: .5em;
+  cursor: pointer
+}
+
+#apply-btn:active {
+  transform: scale(.98)
 }
 
 #box {
@@ -30,3 +35,4 @@ body {
   border: 1px solid #aaa;
 
 }
+
