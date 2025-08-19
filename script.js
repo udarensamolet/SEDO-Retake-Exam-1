@@ -1,4 +1,4 @@
-document.getElementById('apply-btn').addEventListener('click', function() {
-  var color = document.getElementById('color-input').value;
-  document.getElementById('box').style.backgroundColor = color;
-});
+// Commit 1 – helpers
+const $ = s => document.querySelector(s);
+const box = $('#box');
+const input = $('#color-input');
