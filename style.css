@@ -12,13 +12,15 @@ body {
 }
 
 #color-input {
-  padding: 0.5em;
-  width: 200px;
+  padding: .5em;
+  width: 200px
 }
 
-#apply-btn {
-  padding: 0.5em 1em;
-  margin-left: 0.5em;
+#apply-btn,
+#random-btn {
+  padding: .5em 1em;
+  margin-left: .5em;
+  cursor: pointer
 }
 
 #box {
@@ -27,4 +29,5 @@ body {
   height: 150px;
   background: #ddd;
   border: 1px solid #aaa;
+
 }
