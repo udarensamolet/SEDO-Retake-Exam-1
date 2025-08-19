@@ -23,6 +23,12 @@ body {
   cursor: pointer
 }
 
+#apply-btn:hover,
+#random-btn:hover {
+  background: #eee;
+  border-color: #666
+}
+
 #box {
   margin-top: 1em;
   width: 150px;
@@ -31,3 +37,4 @@ body {
   border: 1px solid #aaa;
 
 }
+
