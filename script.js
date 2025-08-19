@@ -8,3 +8,8 @@ document.getElementById('apply-btn').addEventListener('click', function () {
 function validatePickedColor() {
   return true;
 }
+
+// Commit 3 – live preview on change
+document.getElementById('color-input').addEventListener('change', function () {
+  document.getElementById('box').style.backgroundColor = this.value;
+});
